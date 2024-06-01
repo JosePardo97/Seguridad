@@ -45,7 +45,7 @@ try {
     saveKeysToFile(publicKeyPem, privateKeyPem);
 
     // Mensaje a cifrar
-    const mensajeOriginal = 'Este es un mensaje altamente confidencial.';
+    const mensajeOriginal = 'En este taller nuestra nota sera de 5';
     console.log('Mensaje original que se desea cifrar:');
     console.log(mensajeOriginal);
     console.log();
